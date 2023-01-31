@@ -1,6 +1,8 @@
 import dic_trad from "./dic_trad.json";
 import dic_simp from "./dic_simp.json";
 
+// TODO to chinese
+
 const toYuepin = (simplified) => {
 	let yuepin = "";
 	for (let i = 0; i < simplified.length; i++) {

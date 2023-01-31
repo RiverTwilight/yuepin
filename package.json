@@ -1,11 +1,17 @@
 {
-  "name": "yuepin",
-  "version": "1.0.0",
-  "description": "Convert Chinese charcter to Jyutping 中文转粤语拼音",
-  "main": "yuepin.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+	"name": "yuepin",
+	"version": "1.0.1",
+	"description": "Convert between Chinese charcter and Jyutping. | 中文与粤语拼音互转",
+	"main": "yuepin.js",
+	"files": [
+		"yupin.esm.js",
+		"yupin.cjs.js",
+		"dic_simp.json",
+		"dic_trad.json"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "MIT"
 }
